@@ -13,7 +13,7 @@ paulisageek.ns.addLibs = function () {
     }
 
     var node = document.createElement("script");
-    node.src = "http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js";
+    node.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js";
     document.body.appendChild(node);
     paulisageek.ns.nodeSelector();
 };
